@@ -7,8 +7,8 @@
  * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
  */
 
-const fizzbuzz = (numMin, numMax) => {
-  for (let index = numMin; index <= numMax; index++) {
+const fizzbuzz = (minNumber, maxNumber) => {
+  for (let index = minNumber; index <= maxNumber; index++) {
     if (index % 3 === 0 && index % 5 === 0) console.log("FIZZ BUZZ");
     else if (index % 3 === 0) console.log("FIZZ");
     else if (index % 5 === 0) console.log("BUZZ");
